@@ -25,22 +25,4 @@ body {
 }
 
 /*header*/
-header {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 44.25%;
-}
 
-.autolayout {
-   text-align: center;
-}
-
-.Ohmyfood {
-    text-align: center;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 44px;
-    width: 35%;
-    padding-top:2.5% ;
-}

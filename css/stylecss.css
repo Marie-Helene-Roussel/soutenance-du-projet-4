@@ -60,4 +60,18 @@ nav .nav__text {
   color: #353535;
 }
 
+.presentation {
+  background-color: #F7F7F7;
+  padding-top: 5%;
+}
+.presentation .presentation__title {
+  /* titre de la section de présentation */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=stylecss.css.map */

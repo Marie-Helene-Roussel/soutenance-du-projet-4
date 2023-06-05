@@ -1,0 +1,14 @@
+/*mise en forme body et du conteneur*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    .main-contenaire {
+        max-width: 767.98px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -1,3 +1,13 @@
-.fonctionnement{
-    
+.fonctionnement {
+    width: 100%;
+
+    .fonctionnement__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $texts_color;
+        padding-left: 2%;
+    }
+
 }

@@ -8,5 +8,32 @@
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     display: flex;
     align-items: center;
-    border-color: $background_present;
+    border-color: $primary_color;
+}
+
+.fonctionnement__li{
+    padding:1%;
+}
+
+/*boutons de la section fonctionnement*/
+.fonctionnement__button {
+    background-color: $background_present;
+    width: 100%;
+    height: 72.38px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border-color: $button-text;
+    color: $texts_color;
+    @include shadow-fonctionne;
+
+    .fa-mobile-screen-button, 
+    .fa-list-ul, .fa-store{
+        position: relative;
+        right:8%;
+        color: $grey2;
+    }
+
 }

@@ -2,11 +2,11 @@ header {
    display: flex;
    flex-direction: column;
    width: 100%;
-   height: 200px;
+   height: 100px;
    justify-content: center;
    /*ombre de l'entête*/
    @include shadow-box;
-   margin-bottom: 5%;
+   margin-bottom: 1.5%;
 
     .logo__autolayout {
        height: 70%;

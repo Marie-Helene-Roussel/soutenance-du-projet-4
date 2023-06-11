@@ -1,8 +1,13 @@
 @mixin shadow-box{
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px $texts_color;
 }
 
 @mixin shadow-button{
-    box-shadow: 0px 4px 10px 0px #00000040;
+    box-shadow: 0px 4px 9px 0px $grey2;
 
 }
+
+@mixin shadow-fonctionne{
+  box-shadow: 0px 4px 5px 0px $grey2;
+}
+

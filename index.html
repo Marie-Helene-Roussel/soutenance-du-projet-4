@@ -12,8 +12,8 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/stylecss.css">
-   
-    
+
+
 
 </head>
 
@@ -21,10 +21,8 @@
     <div class="main-contenaire">
         <!--mon entête avec le logo de Omhyfood-->
         <header>
-            <div class="logo__autolayout" >
-                <img class="logo"
-                    src="./images/logo/ohmyfood.png"
-                    alt="Logo de l'entreprise Ohmyfood">
+            <div class="logo__autolayout">
+                <img class="logo" src="./images/logo/ohmyfood.png" alt="Logo de l'entreprise Ohmyfood">
             </div>
 
         </header>
@@ -49,24 +47,24 @@
         </section>
         <!-- fonctionnement du site pour réserver son menu-->
         <section class="fonctionnement">
-            <h1 >
+            <h1 class="fonctionnement__title">
                 Fonctionnement
             </h1>
-            <ol>
-                <li>
-                    <button>
+            <ol class="fonctionnement__ol">
+                <li class="fonctionnement__li">
+                    <button class="fonctionnement__button">
                         <i class="fa-solid fa-mobile-screen-button"></i>
                         Choisissez un restaurant
                     </button>
                 </li>
-                <li>
-                    <button>
+                <li class="fonctionnement__li">
+                    <button class="fonctionnement__button">
                         <i class="fa-solid fa-list-ul"></i>
                         Composez votre menu
                     </button>
                 </li>
-                <li>
-                    <button>
+                <li class="fonctionnement__li">
+                    <button class="fonctionnement__button">
                         <i class="fa-sharp fa-solid fa-store"></i>
                         Dégustez au restaurants
                     </button>
@@ -77,47 +75,66 @@
         </section>
 
         <!--présentation des restaurants disponible-->
-        <section>
-            <h1> Restaurants
+        <section class="resto">
+            <h1 class="resto__title"> Restaurants
             </h1>
 
-            <div>
-                <div>
-                    <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                        alt="Table du restaurant La Palette du goût avec des verres sur la table et de la nourriture">
+        <div class="resto__div">
+                <article class="resto__cards">
+                    <div class="resto__img--card">
+                        <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                            alt="Table du restaurant La Palette du goût avec des verres sur la table et de la nourriture">
+                    </div>
                     <h1>La Palette du goût</h1>
                     <p>Ménilmontant</p>
-                </div>
-                <div>
+                    <div>
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
+            </article>
+            <article class="resto__cards">
+                <div class="resto__img--card">
                     <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                         alt="Table du restaurant La note enchanté de la nourriture dans l'assiette">
-                    <h1>La note enchanté</h1>
-                    <p>Charonne</p>
                 </div>
+                <h1>La note enchanté</h1>
+                <p>Charonne</p>
                 <div>
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
+            </article>
+            <article class="resto__cards">
+                <div class="resto__img--card">
                     <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                         alt="Table du restaurant À la Française">
-                    <h1>À la Française</h1>
-                    <p>Cité Rouge</p>
                 </div>
+                <h1>À la Française</h1>
+                <p>Cité Rouge</p>
                 <div>
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
+            </article>
+            <article class="resto__cards">
+                <div class="resto__img--card">
                     <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                         alt="Table du restaurant Le délice des sens de la nourriture">
-                    <h1>Le délice des sens</h1>
-                    <p>Folie-Méricourt</p>
                 </div>
+                <h1>Le délice des sens</h1>
+                <p>Folie-Méricourt</p>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
+            </article>
 
-            </div>
+    </div>
 
-        </section>
+    </section>
 
     </div>
 
     <!-- pieds de page du site avec les liens pour contacter les fondateurs de l'entreprise-->
     <footer>
         <div>
-            <img src="./images/logo/ohmyfood.png"
-                alt="logo de Ohmyfood">
+            <img src="./images/logo/ohmyfood.png" alt="logo de Ohmyfood">
             <ul>
                 <li><i class="fa-solid fa-utensils"></i> Proposer un restaurant</li>
                 <li><i class="fa-sharp fa-solid fa-handshake-angle"></i> Devenir partenaire</li>

@@ -18,23 +18,68 @@ body .main-contenaire {
   display: flex;
   position: relative;
   margin: auto;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 9px 0px #7E7E7E;
   border-radius: 25px;
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   display: flex;
   align-items: center;
-  border-color: #F7F7F7;
+  border-color: #9356DC;
+}
+
+.fonctionnement__li {
+  padding: 1%;
+}
+
+/*boutons de la section fonctionnement*/
+.fonctionnement__button {
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 72.38px;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  border-color: #FFFFFF;
+  color: #000000;
+  box-shadow: 0px 4px 5px 0px #7E7E7E;
+}
+.fonctionnement__button .fa-mobile-screen-button,
+.fonctionnement__button .fa-list-ul, .fonctionnement__button .fa-store {
+  position: relative;
+  right: 8%;
+  color: #7E7E7E;
+}
+
+.resto__div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.resto__div .resto__cards {
+  box-shadow: 0px 4px 5px 0px #7E7E7E;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  width: 99%;
+}
+.resto__div .resto__img--cards {
+  width: 100%;
+}
+.resto__div .resto__cards img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
 }
 
 header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 200px;
+  height: 100px;
   justify-content: center;
   /*ombre de l'entête*/
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-  margin-bottom: 5%;
+  box-shadow: 0px 2px 4px #000000;
+  margin-bottom: 1.5%;
 }
 header .logo__autolayout {
   height: 70%;
@@ -69,6 +114,18 @@ nav .nav__text {
   color: #353535;
 }
 
+.fonctionnement {
+  width: 100%;
+}
+.fonctionnement .fonctionnement__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding-left: 2%;
+}
+
 .presentation {
   background-color: #F7F7F7;
   padding-top: 2%;
@@ -78,9 +135,6 @@ nav .nav__text {
 .presentation .presentation__title {
   position: relative;
   text-align: center;
-}
-.presentation .presentation__title h1 {
-  /* titre de la section de présentation */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -90,6 +144,9 @@ nav .nav__text {
 .presentation .presentation__text {
   position: relative;
   text-align: center;
+}
+.presentation .section__presentation--button {
+  transform: matrix(1, 0, 0, 1, 0.5, 1);
 }
 
 /*police générale*/
@@ -110,6 +167,23 @@ nav .nav__text {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-right: 3%;
+}
+
+.resto {
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 40%;
+  max-width: 95%;
+}
+.resto .resto__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding-left: 1.5%;
 }
 
 /*# sourceMappingURL=stylecss.css.map */

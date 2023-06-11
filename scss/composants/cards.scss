@@ -1,0 +1,25 @@
+.resto__div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    .resto__cards{
+        @include shadow-fonctionne;
+        border-radius: 15px;
+        margin-bottom: 5%;
+        width: 99%;
+    }
+
+    .resto__img--cards{
+        width: 100%;
+        
+    }
+    .resto__cards img{
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+
+
+}

@@ -1,0 +1,20 @@
+.resto {
+   
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 40%;
+    max-width: 95%;
+
+    .resto__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: $texts_color;
+        padding-left: 1.5%;
+    }
+
+   
+}

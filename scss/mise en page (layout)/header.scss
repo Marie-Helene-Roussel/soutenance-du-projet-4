@@ -5,7 +5,7 @@ header {
    height: 200px;
    justify-content: center;
    /*ombre de l'entête*/
-   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+   @include shadow-box;
    margin-bottom: 2%;
 
     .logo__autolayout {

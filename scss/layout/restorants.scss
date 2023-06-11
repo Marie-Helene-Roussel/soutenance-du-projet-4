@@ -4,10 +4,12 @@
     padding-right: 0;
     margin: auto;
     padding-top: 10%;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
     max-width: 95%;
 
     .resto__title {
+        display: inline;
+        width: 30%;
         font-style: normal;
         font-weight: 700;
         font-size: 24px;

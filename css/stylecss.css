@@ -13,6 +13,13 @@ body .main-contenaire {
   box-sizing: border-box;
 }
 
+/* Média querries pour le format tablette et pc*/
+@media screen and (min-width: 1024px) {
+  .main-contenaire {
+    max-width: 1440px;
+    box-sizing: border-box;
+  }
+}
 /*bouton en haut de l'accueil*/
 .section__presentation--button {
   display: flex;
@@ -69,6 +76,40 @@ body .main-contenaire {
   object-fit: cover;
   overflow: hidden;
   border-radius: 15px 15px 0px 0px;
+}
+.resto__div .resto__title--cards {
+  padding-left: 1.5%;
+}
+.resto__div .fa-heart {
+  position: relative;
+  left: 50%;
+  right: 0%;
+  top: 40%;
+  bottom: 80%;
+}
+
+footer {
+  background-color: #353535;
+  padding-bottom: 10%;
+}
+footer .footer__layout {
+  padding-left: 5%;
+  padding-top: 3%;
+}
+footer .footer__logo {
+  width: 30%;
+  color: #FFFFFF;
+  font-family: "shrikhand", cursive;
+  padding-left: 5%;
+}
+footer ul {
+  list-style-type: none;
+}
+footer .footer__link {
+  color: #FFFFFF;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  padding-left: 0%;
 }
 
 header {
@@ -152,7 +193,6 @@ nav .nav__text {
 /*police générale*/
 * {
   font-family: "Roboto", sans-serif;
-  font-family: "Shrikhand", sans-serif;
 }
 
 .section__presentation--button {
@@ -174,10 +214,12 @@ nav .nav__text {
   padding-right: 0;
   margin: auto;
   padding-top: 10%;
-  padding-bottom: 40%;
+  padding-bottom: 10%;
   max-width: 95%;
 }
 .resto .resto__title {
+  display: inline;
+  width: 30%;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

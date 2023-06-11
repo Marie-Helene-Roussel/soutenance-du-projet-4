@@ -12,3 +12,12 @@ body {
         box-sizing: border-box;
     }
 }
+
+/* Média querries pour le format tablette et pc*/
+@media screen and (min-width: 1024px) {
+    .main-contenaire{
+        max-width: 1440px;
+        box-sizing: border-box;
+    }
+}
+

@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/*fil import */ /*mise en forme body et du conteneur*/
+/*fil use pour pouvoir utiliser Sass en .scss */
+/*couleurs pour les textes et fond de couleurs*/
+/*mise en forme body et du conteneur*/
 body {
   display: flex;
   flex-direction: column;
@@ -11,10 +13,17 @@ body .main-contenaire {
   box-sizing: border-box;
 }
 
-/*police générale*/
-* {
-  font-family: "Roboto", sans-serif;
-  font-family: "Shrikhand", sans-serif;
+/*bouton en haut de l'accueil*/
+.section__presentation--button {
+  display: flex;
+  position: relative;
+  margin: auto;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 25px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  display: flex;
+  align-items: center;
+  border-color: #F7F7F7;
 }
 
 header {
@@ -25,7 +34,7 @@ header {
   justify-content: center;
   /*ombre de l'entête*/
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 header .logo__autolayout {
   height: 70%;
@@ -46,7 +55,7 @@ nav {
   background-color: #EAEAEA;
 }
 nav .fa-location-dot {
-  padding-right: 3%;
+  padding-right: 2%;
   color: #353535;
 }
 nav .nav__text {
@@ -62,16 +71,45 @@ nav .nav__text {
 
 .presentation {
   background-color: #F7F7F7;
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  justify-content: center;
 }
 .presentation .presentation__title {
+  position: relative;
+  text-align: center;
+}
+.presentation .presentation__title h1 {
   /* titre de la section de présentation */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+}
+.presentation .presentation__text {
+  position: relative;
   text-align: center;
+}
+
+/*police générale*/
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Shrikhand", sans-serif;
+}
+
+.section__presentation--button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
 }
 
 /*# sourceMappingURL=stylecss.css.map */

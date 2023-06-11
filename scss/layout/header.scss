@@ -6,7 +6,7 @@ header {
    justify-content: center;
    /*ombre de l'entête*/
    @include shadow-box;
-   margin-bottom: 2%;
+   margin-bottom: 5%;
 
     .logo__autolayout {
        height: 70%;
@@ -21,3 +21,4 @@ header {
     }
 
 }
+

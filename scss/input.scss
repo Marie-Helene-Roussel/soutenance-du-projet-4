@@ -1,15 +1,15 @@
 /*fil use pour pouvoir utiliser Sass en .scss */
-@use 'body and container';
-@use 'buttons' ;
-@use 'cards';
-@use '_variables';
-@use 'footer';
-@use 'header';
-@use 'nav';
-@use 'restaurants';
-@use 'fonctionnement';
-@use 'presentation';
-@use 'polices';
-@use 'mixins';
-
+@import './base/mixins';
+@import './base/_variables';
+@import './base/body';
+@import './composants/buttons';
+@import './composants/cards';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/nav';
+@import './pages/menu';
+@import './layout/fonctionnement';
+@import './layout/presentation';
+@import './utils/polices';
+@import './layout/restorants'
 

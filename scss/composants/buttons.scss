@@ -1,5 +1,12 @@
-.button-nav {
+/*bouton en haut de l'accueil*/
+.section__presentation--button {
     display: flex;
     position: relative;
-   text-align: center;
+    margin: auto;
+    @include shadow-button;
+    border-radius: 25px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    display: flex;
+    align-items: center;
+    border-color: $background_present;
 }

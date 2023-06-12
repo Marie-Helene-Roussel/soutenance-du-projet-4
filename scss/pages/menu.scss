@@ -1,0 +1,21 @@
+/*section pour la mise en page des menu*/
+.menu__section {
+    display: flex;
+    flex-direction: column;
+
+    .img-page {
+        width: 100%;
+        height: 275px;
+    }
+
+    .layout__menu {
+       height: 1307px;
+       position: relative;
+        top: 30%;
+        bottom: 20%;
+        background-color: $background_present ;
+        border-radius: 20px 20px 0px 0px;
+
+    }
+
+}

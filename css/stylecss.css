@@ -133,6 +133,32 @@ header .logo {
   margin: auto;
 }
 
+/*header pour les pages des menus*/
+.logo-page {
+  max-width: 50%;
+  position: relative;
+  left: 20%;
+}
+.logo-page .fa-arrow-left {
+  position: relative;
+  padding-left: 1%;
+  left: 2%;
+  right: 2%;
+  bottom: 1%;
+  top: 3%;
+}
+
+/*media queries pour format tablette et pc*/
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo__autolayout {
+    width: 100%;
+  }
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -153,6 +179,24 @@ nav .nav__text {
   font-size: 16px;
   line-height: 19px;
   color: #353535;
+}
+
+/*section pour la mise en page des menu*/
+.menu__section {
+  display: flex;
+  flex-direction: column;
+}
+.menu__section .img-page {
+  width: 100%;
+  height: 275px;
+}
+.menu__section .layout__menu {
+  height: 1307px;
+  position: relative;
+  top: 30%;
+  bottom: 20%;
+  background-color: #F7F7F7;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .fonctionnement {

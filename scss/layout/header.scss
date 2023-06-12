@@ -23,5 +23,12 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  
+  header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo__autolayout{
+    width: 100%;
+  }
 }

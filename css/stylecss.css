@@ -99,7 +99,7 @@ footer .footer__layout {
 footer .footer__logo {
   width: 30%;
   color: #FFFFFF;
-  font-family: "shrikhand", cursive;
+  font-family: "Shrikhand", cursive;
   padding-left: 5%;
 }
 footer ul {
@@ -197,6 +197,39 @@ nav .nav__text {
   bottom: 20%;
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;
+}
+.menu__section .resto__name {
+  position: relative;
+  left: 5%;
+  top: 1%;
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 41px;
+}
+.menu__section .select__title {
+  padding-left: 1%;
+}
+.menu__section .selct__ul {
+  list-style-type: none;
+}
+.menu__section .select__button {
+  display: grid;
+  align-items: center;
+  padding-top: 0%;
+  padding-left: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  isolation: isolate;
+  box-shadow: 0px 4.01149px 15.0431px #000000;
+  width: 90%;
+  height: 65px;
+  gap: 5%;
+  border-color: #EAEAEA;
+  /* White */
+  background: #FFFFFF;
+  border-radius: 15.0431px;
 }
 
 .fonctionnement {

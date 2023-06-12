@@ -9,13 +9,57 @@
     }
 
     .layout__menu {
-       height: 1307px;
-       position: relative;
+        height: 1307px;
+        position: relative;
         top: 30%;
         bottom: 20%;
         background-color: $background_present ;
         border-radius: 20px 20px 0px 0px;
 
+    }
+
+    .resto__name {
+        position: relative;
+        left: 5%;
+        top: 1%;
+
+        font-family: 'Shrikhand';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+
+    .select__title {
+        padding-left: 1%;
+    }
+
+    .selct__ul {
+        list-style-type: none;
+    }
+
+    .select__button {
+        display: grid;
+        
+        align-items: center;
+        padding-top: 0%;
+        padding-left: 2%;
+        margin-left: 2%;
+        margin-top: 2%;
+        isolation: isolate;
+        @include shadow-select;
+        width: 90%;
+        height: 65px;
+        gap: 5%;
+        border-color: $background_nav;
+
+        /* White */
+
+        background: #FFFFFF;
+        border-radius: 15.0431px;
+
+        
     }
 
 }

@@ -11,3 +11,8 @@
   box-shadow: 0px 4px 5px 0px $grey2;
 }
 
+@mixin shadow-select{
+  box-shadow: 0px 4.01149px 15.0431px $texts_color;
+
+}
+

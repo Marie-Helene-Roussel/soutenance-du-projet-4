@@ -57,6 +57,9 @@ body .main-contenaire {
   right: 8%;
   color: #7E7E7E;
 }
+.fonctionnement__button .number__button {
+  background-color: #9356DC;
+}
 
 .resto__div {
   display: grid;

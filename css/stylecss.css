@@ -79,13 +79,15 @@ body .main-contenaire {
 }
 .resto__div .resto__title--cards {
   padding-left: 1.5%;
+  width: 80%;
+  margin-top: 0;
 }
 .resto__div .fa-heart {
-  position: relative;
-  left: 50%;
-  right: 0%;
-  top: 40%;
-  bottom: 80%;
+  font-size: 2em;
+  padding-top: 2%;
+}
+.resto__div .resto__card--div {
+  display: flex;
 }
 
 footer {
@@ -165,13 +167,14 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #EAEAEA;
+  width: 100%;
 }
 nav .fa-location-dot {
   padding-right: 2%;
   color: #353535;
 }
 nav .nav__text {
-  width: 109px;
+  width: 100%;
   height: 19px;
   font-family: "Roboto";
   font-style: normal;
@@ -189,6 +192,7 @@ nav .nav__text {
 .menu__section .img-page {
   width: 100%;
   height: 275px;
+  object-fit: cover;
 }
 .menu__section .layout__menu {
   height: 1307px;

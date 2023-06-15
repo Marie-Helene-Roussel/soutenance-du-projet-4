@@ -1,14 +1,20 @@
+/* Mise en forme de la navigation en vu d'une 
+prochaine création de barre de recherche potentiel*/
 nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: $background_nav;
     width: 100%;
 
     .fa-location-dot {
         padding-right: 2%;
+        left: 35.5%;
         color: $grey1;
+        position: relative;
+        align-items: center;
     }
 
     .nav__text {

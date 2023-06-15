@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*fil use pour pouvoir utiliser Sass en .scss */
+/*fil use pour pouvoir utiliser Sass en .scss */ /* Section consacré aux mixin, comme pour les ombres, par exemple*/
 /*couleurs pour les textes et fond de couleurs*/
 /*mise en forme body et du conteneur*/
 body {
@@ -58,6 +58,7 @@ body .main-contenaire {
   color: #7E7E7E;
 }
 
+/* cardes pour les présentations des restaurants sur la page d'accueil*/
 .resto__div {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -90,6 +91,8 @@ body .main-contenaire {
   display: flex;
 }
 
+/* Partie consacré au pied de page du site et de sa mise en forme de 
+ses éléments.*/
 footer {
   background-color: #353535;
   padding-bottom: 10%;
@@ -114,6 +117,7 @@ footer .footer__link {
   padding-left: 0%;
 }
 
+/*Mise en forme de l'entête du site*/
 header {
   display: flex;
   flex-direction: column;
@@ -161,17 +165,23 @@ header .logo {
     width: 100%;
   }
 }
+/* Mise en forme de la navigation en vu d'une 
+prochaine création de barre de recherche potentiel*/
 nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #EAEAEA;
   width: 100%;
 }
 nav .fa-location-dot {
   padding-right: 2%;
+  left: 35.5%;
   color: #353535;
+  position: relative;
+  align-items: center;
 }
 nav .nav__text {
   width: 100%;
@@ -184,7 +194,7 @@ nav .nav__text {
   color: #353535;
 }
 
-/*section pour la mise en page des menu*/
+/*section pour la mise en page des menu sur les pages anexes*/
 .menu__section {
   display: flex;
   flex-direction: column;
@@ -236,6 +246,7 @@ nav .nav__text {
   border-radius: 15.0431px;
 }
 
+/* section correspondant aux boutons sur le fonctionnement du site*/
 .fonctionnement {
   width: 100%;
 }
@@ -261,6 +272,7 @@ nav .nav__text {
   border-color: #9356DC;
 }
 
+/* section de la présentation du site sous la navigation*/
 .presentation {
   background-color: #F7F7F7;
   padding-top: 2%;
@@ -303,6 +315,8 @@ nav .nav__text {
   padding-right: 3%;
 }
 
+/* section complémentaire avec la section cards, qui présente 
+les restaurant principalement pour la mise en forme des textes*/
 .resto {
   padding-left: 0;
   padding-right: 0;

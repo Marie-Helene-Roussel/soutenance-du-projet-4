@@ -86,6 +86,8 @@ body .main-contenaire {
 .resto__div .fa-heart {
   font-size: 2em;
   padding-top: 2%;
+  position: relative;
+  left: 5%;
 }
 .resto__div .resto__card--div {
   display: flex;
@@ -202,24 +204,30 @@ nav .nav__text {
 .menu__section .img-page {
   width: 100%;
   height: 275px;
+  display: flex;
   object-fit: cover;
 }
 .menu__section .layout__menu {
-  height: 1307px;
+  height: 1100px;
   position: relative;
-  top: 30%;
-  bottom: 20%;
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;
 }
+.menu__section .fa-regular, .menu__section .far {
+  font-weight: 400;
+  position: relative;
+  left: 90%;
+  bottom: 4.5%;
+  font-size: 1.7em;
+}
 .menu__section .resto__name {
   position: relative;
-  left: 5%;
+  left: 3%;
   top: 1%;
   font-family: "Shrikhand";
   font-style: italic;
-  font-weight: 800;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 23px;
   line-height: 41px;
 }
 .menu__section .select__title {
@@ -237,13 +245,34 @@ nav .nav__text {
   margin-top: 2%;
   isolation: isolate;
   box-shadow: 0px 4.01149px 15.0431px #000000;
-  width: 90%;
-  height: 65px;
-  gap: 5%;
+  width: 95%;
+  height: 80px;
+  gap: 1%;
   border-color: #EAEAEA;
   /* White */
   background: #FFFFFF;
   border-radius: 15.0431px;
+}
+.menu__section .title__dishes {
+  text-align: left;
+  font-weight: 700;
+  font-size: 15px;
+  width: 80%;
+  position: relative;
+  top: 35%;
+}
+.menu__section .text__dishes {
+  text-align: left;
+  position: relative;
+  top: 55%;
+  width: 80%;
+}
+.menu__section .price__dishes {
+  font-weight: 700;
+  position: relative;
+  left: 90%;
+  bottom: 30%;
+  width: 10%;
 }
 
 /* section correspondant aux boutons sur le fonctionnement du site*/

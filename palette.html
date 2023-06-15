@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=shrikhand&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -19,95 +19,111 @@
 
 
 </head>
+
 <body>
-<div class="main-contenaire">
- <!--mon entête avec le logo de Omhyfood-->
- <header>
-   
-    <div class="logo__autolayout">  
-        <i class="fa-sharp fa-solid fa-arrow-left"></i>
-        <img class="logo-page" src="./images/logo/ohmyfood.png" alt="Logo de l'entreprise Ohmyfood">
-    </div>
+    <div class="main-contenaire">
+        <!--mon entête avec le logo de Omhyfood-->
+        <header>
 
- </header>
- <main>
-    <section class="menu__section">
-        <article>
-            <div>
-            <img class="img-page" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-            alt="Table du restaurant La Palette du goût avec des verres sur la table et de la nourriture">
+            <div class="logo__autolayout">
+                <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                <img class="logo-page" src="./images/logo/ohmyfood.png" alt="Logo de l'entreprise Ohmyfood">
             </div>
-            <div class="layout__menu">
-            <h1 class="resto__name"> La palette du goût <i class="fa-regular fa-heart"></i> </h1>
-            <p>
-                <h1 class="select__title"> Entrées </h1>
-               
-                     <button class="select__button"> <h1>Fricassée d'escargots</h1>
-                        <p>Au piment d'Espelette </p>
-                        <p>25€</p></button>
-                     <button class="select__button"> <h1>Foie gras de canard mi-cuit</h1>
-                        <p>Et ses copeaux de truffe noire</p>
-                        <p>35€</p></button>
-                     <button class="select__button"><h1>Œuf au plat </h1>
-                        <p> Assaisonné à la truffe sur lit de caviar</p>
-                        <p>20€</p></button>    
 
-                
-                <h1 class="select__title">Plats</h1>
-               
-                     <button class="select__button"><h1>Filet de bœuf aux herbes</h1>
-                        <p>Accompagné de sa ribambelle de légumes</p>
-                        <p>40€</p></button>
-                     <button class="select__button"><h1> Parmentier de queue de bœuf</h1>
-                       <p> À la truffe noire sur sa purée de panais</p>
-                       <p> 35€</p></button>
-                     <button class="select__button"><h1>Filet de turbot</h1>
-                        <p>Aux agrumes</p>
-                       <p> 44€</p></button>        
+        </header>
+        <main>
+            <section class="menu__section">
+                <article>
+                    <div>
+                        <img class="img-page" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                            alt="Table du restaurant La Palette du goût avec des verres sur la table et de la nourriture">
+                    </div>
+                    <div class="layout__menu">
+                        <h1 class="resto__name"> La palette du goût </h1>
+                        <i class="fa-regular fa-heart"></i> 
+                        <h1 class="select__title"> Entrées </h1>
 
-                <h1 class="select__title">Dessert</h1>
-                    <button class="select__button"><h1> Paris-Brest</h1>
-                        <p>Revisité</p>
-                        <p>18€</p></button>
-                     <button class="select__button"><h1>Macaron au chocolat d'exception</h1> 
-                        <p>Et glace à la vanille de Madagascar</p>
-                        <p>22€</p></button></li>
-                    <button class="select__button"><h1>Mousse au chocolat </h1>
-                       <p>Au piment d'Espelette et à la truffe noire</p>
-                       <p> 23€</p></button></li>        
+                        <button class="select__button">
+                            <div class="title__dishes">Fricassée d'escargots</div>
+                            <div class="text__dishes"> Au piment d'Espelette</div>
+                            <div class="price__dishes"> 25€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes">Foie gras de canard mi-cuit</div>
+                            <div class="text__dishes"> ses copeaux de truffe noire</div>
+                            <div class="price__dishes"> 35€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes">Œuf au plat </div>
+                            <div class="text__dishes"> Assaisonné à la truffe sur lit de caviar</div>
+                           <div class="price__dishes"> 20€ </div> 
+                        </button>
+
+
+                        <h1 class="select__title">Plats</h1>
+
+                        <button class="select__button">
+                            <div class="title__dishes">Filet de bœuf aux herbes</div>
+                            <div class="text__dishes">Accompagné de sa ribambelle de légumes</div>
+                            <div class="price__dishes">40€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes"> Parmentier de queue de bœuf</div>
+                            <div class="text__dishes"> À la truffe noire sur sa purée de panais</div>
+                            <div class="price__dishes"> 35€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes">Filet de turbot</div>
+                            <div class="text__dishes">Aux agrumes</div>
+                            <div class="price__dishes"> 44€</div>
+                        </button>
+
+                        <h1 class="select__title">Dessert</h1>
+                        <button class="select__button">
+                            <div class="title__dishes"> Paris-Brest</div>
+                            <div class="text__dishes">Revisité</div>
+                            <div class="price__dishes">18€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes">Macaron au chocolat d'exception</div>
+                            <div class="text__dishes">Et glace à la vanille de Madagascar</div>
+                            <div class="price__dishes">22€</div>
+                        </button>
+                        <button class="select__button">
+                            <div class="title__dishes">Mousse au chocolat </div>
+                            <div class="text__dishes">Au piment d'Espelette et à la truffe noire</div>
+                            <div class="price__dishes"> 23€</div>
+                        </button>
+
+                        
+
+                    </div>
+                </article>
+
+
+            </section>
+
+
+
+
+
+        </main>
+
+        <!-- pieds de page du site avec les liens pour contacter les fondateurs de l'entreprise-->
+        <footer>
+            <div class="footer__layout">
+                <h1 class="footer__logo"> Ohmyfood</h1>
+                <ul>
+                    <li class="footer__link"><i class="fa-solid fa-utensils"></i> Proposer un restaurant</li>
+                    <li class="footer__link"><i class="fa-sharp fa-solid fa-handshake-angle"></i> Devenir partenaire
+                    </li>
+                    <li class="footer__link">Mentions légales</li>
+                    <li class="footer__link">Contact</li>
 
                 </ul>
-                
-
-
-            </p>
-
             </div>
-        </article>
-       
-        
-    </section>
 
-
-
-
-
- </main>
-
-<!-- pieds de page du site avec les liens pour contacter les fondateurs de l'entreprise-->
-    <footer>
-        <div class="footer__layout">
-            <h1 class="footer__logo"> Ohmyfood</h1> 
-            <ul >
-                <li class="footer__link"><i class="fa-solid fa-utensils"></i> Proposer un restaurant</li>
-                <li class="footer__link"><i class="fa-sharp fa-solid fa-handshake-angle"></i> Devenir partenaire</li>
-                <li class="footer__link">Mentions légales</li>
-                <li class="footer__link">Contact</li>
-
-            </ul>
-        </div>
-
-    </footer>
+        </footer>
 
 
 
@@ -122,7 +138,7 @@
 
 
 
-</div>
+    </div>
 
 
 

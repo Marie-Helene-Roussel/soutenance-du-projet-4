@@ -60,7 +60,7 @@ body .main-contenaire {
 .fonctionnement__button .number__fonctionnement--button {
   display: flex;
   background-color: #9356DC;
-  border: 1px solid #9356DC;
+  border: 1px solid;
   border-radius: 25%;
   border-color: #9356DC;
 }

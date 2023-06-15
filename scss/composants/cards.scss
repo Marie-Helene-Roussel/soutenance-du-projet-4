@@ -1,20 +1,24 @@
 /* cardes pour les présentations des restaurants sur la page d'accueil*/
-.resto__div{
+.resto__div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 3%;
 
-    .resto__cards{
+    .resto__cards {
         @include shadow-fonctionne;
         border-radius: 15px;
         margin-bottom: 5%;
         width: 99%;
+
+
     }
 
-    .resto__img--cards{
+    .resto__img--cards {
         width: 100%;
-        
+
     }
-    .resto__cards img{
+
+    .resto__cards img {
         width: 100%;
         object-fit: cover;
         overflow: hidden;
@@ -24,22 +28,23 @@
     .resto__title--cards {
         padding-left: 1.5%;
         width: 80%;
-        margin-top:0;
+        margin-top: 0;
     }
 
     .fa-heart {
-        
+
         font-size: 2em;
-       padding-top: 2%;
-       position: relative;
-       left: 5%;
-    
-    }
-    .resto__card--div{
-        display:flex;
+        padding-top: 2%;
+        position: relative;
+        left: 5%;
 
     }
-  
+
+    .resto__card--div {
+        display: flex;
+
+    }
+
 
 
 

@@ -8,7 +8,10 @@
         @include shadow-fonctionne;
         border-radius: 15px;
         margin-bottom: 5%;
-        width: 99%;
+        width: 95%;
+        background-color: $button-text;
+        margin-left: 2%;
+    
 
 
     }
@@ -43,6 +46,10 @@
     .resto__card--div {
         display: flex;
 
+    }
+    .link__cards{
+        text-decoration: none;
+        color: $texts_color;
     }
 
 

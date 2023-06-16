@@ -240,6 +240,7 @@ nav .nav__text {
 }
 .menu__section .select__title {
   padding-left: 1%;
+  border-bottom: 3px solid #99E2D0;
 }
 .menu__section .selct__ul {
   list-style-type: none;

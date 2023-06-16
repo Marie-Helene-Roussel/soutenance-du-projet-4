@@ -2,6 +2,8 @@
 .menu__section {
     display: flex;
     flex-direction: column;
+    padding-bottom: 2%;
+    
 
     .img-page {
         width: 100%;
@@ -12,7 +14,7 @@
    
 
     .layout__menu {
-        height: 1100px;
+        height: 1150px;
         position: relative;
         background-color: $background_present ;
          border-radius: 20px 20px 0px 0px;

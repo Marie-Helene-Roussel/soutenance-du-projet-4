@@ -108,7 +108,7 @@ footer {
 }
 footer .footer__layout {
   padding-left: 5%;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 footer .footer__logo {
   width: 30%;
@@ -207,6 +207,7 @@ nav .nav__text {
 .menu__section {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2%;
 }
 .menu__section .img-page {
   width: 100%;
@@ -215,7 +216,7 @@ nav .nav__text {
   object-fit: cover;
 }
 .menu__section .layout__menu {
-  height: 1100px;
+  height: 1150px;
   position: relative;
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;

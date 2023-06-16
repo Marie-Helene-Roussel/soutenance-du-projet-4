@@ -220,6 +220,7 @@ nav .nav__text {
   position: relative;
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;
+  bottom: 45px;
 }
 .menu__section .fa-regular, .menu__section .far {
   font-weight: 400;

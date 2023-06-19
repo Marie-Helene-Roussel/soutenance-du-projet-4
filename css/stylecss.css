@@ -6,6 +6,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* Média querries pour le format tablette et pc*/
+}
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body .main-contenaire {
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 body .main-contenaire {
   max-width: 767.98px;
@@ -13,19 +26,6 @@ body .main-contenaire {
   box-sizing: border-box;
 }
 
-/* Média querries pour le format tablette et pc*/
-@media screen and (min-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .main-contenaire {
-    max-width: 1440px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-}
 /*bouton en haut de l'accueil*/
 .section__presentation--button {
   display: flex;
@@ -229,7 +229,8 @@ nav .nav__text {
   border-radius: 20px 20px 0px 0px;
   bottom: 45px;
 }
-.menu__section .fa-regular, .menu__section .far {
+.menu__section .fa-regular,
+.menu__section .far {
   font-weight: 400;
   position: relative;
   left: 90%;
@@ -248,7 +249,10 @@ nav .nav__text {
 }
 .menu__section .select__title {
   padding-left: 1%;
-  border-bottom: 3px solid #99E2D0;
+}
+.menu__section .select__title::after {
+  width: 5%;
+  background-color: #99E2D0;
 }
 .menu__section .selct__ul {
   list-style-type: none;

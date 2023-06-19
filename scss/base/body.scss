@@ -5,28 +5,28 @@ body {
     flex-direction: column;
     justify-content: center;
 
+    /* Média querries pour le format tablette et pc*/
+    @media screen and (min-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .main-contenaire {
+            max-width: 1440px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+
+
 
     .main-contenaire {
         max-width: 767.98px;
         width: 100%;
         box-sizing: border-box;
+
+
+
     }
 }
-
-/* Média querries pour le format tablette et pc*/
-@media screen and (min-width: 768px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-
-
-    .main-contenaire{
-        max-width: 1440px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
-

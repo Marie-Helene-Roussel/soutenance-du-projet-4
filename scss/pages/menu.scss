@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 2%;
-    
+
 
     .img-page {
         width: 100%;
@@ -11,26 +11,28 @@
         display: flex;
         object-fit: cover;
     }
-   
+
 
     .layout__menu {
         height: 1150px;
         position: relative;
         background-color: $background_present ;
-         border-radius: 20px 20px 0px 0px;
-         bottom: 45px;
+        border-radius: 20px 20px 0px 0px;
+        bottom: 45px;
 
-    
-        }
-        .fa-regular, .far {
-            font-weight: 400;
-            position: relative;
-            left: 90%;
-            bottom: 4.3%;
-            font-size: 1.7em;
-        }
-    
-    
+
+    }
+
+    .fa-regular,
+    .far {
+        font-weight: 400;
+        position: relative;
+        left: 90%;
+        bottom: 4.3%;
+        font-size: 1.7em;
+    }
+
+
     .resto__name {
         position: relative;
         left: 3%;
@@ -45,15 +47,20 @@
 
     .select__title {
         padding-left: 1%;
-        border-bottom: 3px solid #99E2D0;
+
+        &::after {
+            width: 5%;
+            background-color: $turquoise_color ;
         }
+
+    }
 
     .selct__ul {
         list-style-type: none;
     }
 
     .select__button {
-        display: grid;  
+        display: grid;
         align-items: center;
         padding-top: 0%;
         padding-left: 2%;
@@ -71,10 +78,10 @@
         background: #FFFFFF;
         border-radius: 15.0431px;
 
-        
+
     }
 
-    .title__dishes{
+    .title__dishes {
         text-align: left;
         font-weight: 700;
         font-size: 15px;
@@ -82,15 +89,17 @@
         position: relative;
         top: 35%;
     }
-    .text__dishes{
+
+    .text__dishes {
         text-align: left;
         position: relative;
-        top:55%;
+        top: 55%;
         width: 80%;
 
     }
-    .price__dishes{
-        font-weight:700 ;
+
+    .price__dishes {
+        font-weight: 700;
         position: relative;
         left: 90%;
         bottom: 30%;

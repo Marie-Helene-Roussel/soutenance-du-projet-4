@@ -14,9 +14,15 @@ body .main-contenaire {
 }
 
 /* Média querries pour le format tablette et pc*/
-@media screen and (min-width: 788px) {
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .main-contenaire {
     max-width: 1440px;
+    width: 100%;
     box-sizing: border-box;
   }
 }
@@ -164,10 +170,11 @@ header .logo {
 }
 
 /*media queries pour format tablette et pc*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
   }
   .logo__autolayout {

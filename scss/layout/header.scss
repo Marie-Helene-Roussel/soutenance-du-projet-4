@@ -48,10 +48,11 @@ header {
 
 
 /*media queries pour format tablette et pc*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
   }
 

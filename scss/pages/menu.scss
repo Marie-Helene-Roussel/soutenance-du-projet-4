@@ -48,62 +48,68 @@
     .select__title {
         padding-left: 1%;
 
-        &::after {
-            width: 5%;
-            background-color: $turquoise_color ;
-        }
 
     }
 
-    .selct__ul {
-        list-style-type: none;
-    }
+    .border {
+        width: 5%;
+        background-color: #99E2D0;
+        margin-top: -2%;
+        height: 3px;
+        margin-left: 1%;
+        margin-bottom: 4%;
+    
+}
 
-    .select__button {
-        display: grid;
-        align-items: center;
-        padding-top: 0%;
-        padding-left: 2%;
-        margin-left: 2%;
-        margin-top: 2%;
-        isolation: isolate;
-        @include shadow-select;
-        width: 95%;
-        height: 80px;
-        gap: 1%;
-        border-color: $background_nav;
+.selct__ul {
+    list-style-type: none;
+}
 
-        /* White */
+.select__button {
+    display: grid;
+    align-items: center;
+    padding-top: 0%;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    isolation: isolate;
+    @include shadow-select;
+    width: 95%;
+    height: 80px;
+    gap: 1%;
+    border-color: $background_nav;
 
-        background: #FFFFFF;
-        border-radius: 15.0431px;
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 15.0431px;
 
 
-    }
+}
 
-    .title__dishes {
-        text-align: left;
-        font-weight: 700;
-        font-size: 15px;
-        width: 80%;
-        position: relative;
-        top: 35%;
-    }
+.title__dishes {
+    text-align: left;
+    font-weight: 700;
+    font-size: 15px;
+    width: 80%;
+    position: relative;
+    top: 35%;
+}
 
-    .text__dishes {
-        text-align: left;
-        position: relative;
-        top: 55%;
-        width: 80%;
+.text__dishes {
+    text-align: left;
+    position: relative;
+    top: 55%;
+    width: 80%;
 
-    }
+}
 
-    .price__dishes {
-        font-weight: 700;
-        position: relative;
-        left: 90%;
-        bottom: 30%;
-        width: 10%;
-    }
+.price__dishes {
+    font-weight: 700;
+    position: relative;
+    left: 90%;
+    bottom: 30%;
+    width: 10%;
+}
 
 }

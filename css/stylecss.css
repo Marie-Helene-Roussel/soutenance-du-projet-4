@@ -48,6 +48,12 @@ body {
   padding: 1%;
   gap: 4%;
 }
+@media screen and (min-width: 768px) {
+  .fonctionnement__div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /*boutons de la section fonctionnement*/
 .fonctionnement__button {

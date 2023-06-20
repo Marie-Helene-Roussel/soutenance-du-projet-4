@@ -16,6 +16,11 @@
     grid-template-columns: repeat(1 , 1fr);
     padding: 1%;
     gap: 4%;
+
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+    }
 }
 
 /*boutons de la section fonctionnement*/

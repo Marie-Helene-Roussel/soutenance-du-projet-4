@@ -43,7 +43,10 @@ body {
 }
 
 .fonctionnement__div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   padding: 1%;
+  gap: 4%;
 }
 
 /*boutons de la section fonctionnement*/

@@ -9,22 +9,7 @@ header {
   @include shadow-box;
   margin-bottom: 1.5%;
 
-  /*media queries pour format tablette et pc*/
-  @media screen and (min-width: 768px) {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-
-
-    .logo__autolayout {
-      width: 100%;
-    }
-  }
-
-
-
+  
 
   .logo__autolayout {
     height: 70%;
@@ -54,5 +39,26 @@ header {
     right: 2%;
     bottom: 1%;
     top: 3%;
+  }
+}
+
+
+
+
+
+
+
+
+/*media queries pour format tablette et pc*/
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo__autolayout {
+    width: 100%;
   }
 }

@@ -31,34 +31,54 @@ header {
     @media screen and (min-width: 768px) {
       width: 100%;
       display: flex;
-      
+      justify-content: center;
 
+    }
+
+    .logo {
+      position: initial;
+      max-width: 70%;
+      margin: auto;
+
+      @media screen and (min-width: 768px) {
+        max-width: 100%;
+        width: 31%;
+
+      }
+
+      /*header pour les pages des menus*/
+      .logo-page {
+        max-width: 50%;
+        position: relative;
+        left: 20%;
+
+        @media screen and (min-width: 768px) {
+          padding-left: 10%;
+
+
+        }
+
+
+
+        .fa-arrow-left {
+          position: relative;
+          padding-left: 1%;
+          left: 2%;
+          right: 2%;
+          bottom: 1%;
+          top: 3%;
+
+          @media screen and (min-width: 768px) {
+            position: relative;
+            left: 1%;
+            padding-right: 10%;
+
+
+          }
+        }
+      }
+
+
+    }
   }
-
-  .logo {
-    position: initial;
-    max-width: 70%;
-    margin: auto;
-  }
-
-
-}
-
-/*header pour les pages des menus*/
-.logo-page {
-  max-width: 50%;
-  position: relative;
-  left: 20%;
-
-  .fa-arrow-left {
-    position: relative;
-    padding-left: 1%;
-    left: 2%;
-    right: 2%;
-    bottom: 1%;
-    top: 3%;
-  }
-}
-
-
 }

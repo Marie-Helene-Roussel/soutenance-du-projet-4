@@ -86,6 +86,12 @@ body {
   grid-template-columns: repeat(1, 1fr);
   padding-top: 3%;
 }
+@media screen and (min-width: 768px) {
+  .resto__div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .resto__div .resto__cards {
   box-shadow: 0px 4px 5px 0px #7E7E7E;
   border-radius: 15px;
@@ -343,6 +349,13 @@ nav .nav__text {
 /* section correspondant aux boutons sur le fonctionnement du site*/
 .fonctionnement {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .fonctionnement {
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
 }
 .fonctionnement .fonctionnement__title {
   font-style: normal;

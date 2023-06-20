@@ -372,9 +372,15 @@ nav .nav__text {
   font-size: 24px;
   line-height: 28px;
 }
+@media screen and (min-width: 768px) {
+  .presentation .presentation__title {
+    font-size: 35px;
+  }
+}
 .presentation .presentation__text {
   position: relative;
   text-align: center;
+  padding-bottom: 2%;
 }
 .presentation .section__presentation--button {
   transform: matrix(1, 0, 0, 1, 0.5, 1);

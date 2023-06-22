@@ -90,6 +90,7 @@ body {
   .resto__div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
   }
 }
 .resto__div .resto__cards {

@@ -7,6 +7,7 @@
     @media screen and (min-width: 768px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
 
     }
 
@@ -17,7 +18,7 @@
         width: 95%;
         background-color: $button-text;
         margin-left: 2%;
-    
+ 
 
 
     }

@@ -20,6 +20,13 @@ les restaurant principalement pour la mise en forme des textes*/
         line-height: 28px;
         color: $texts_color;
         padding-left: 1.5%;
+
+        @media screen and (min-width: 768px) {
+            padding-left: 6.5%;
+
+        }
+
+
       
     }
     

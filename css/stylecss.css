@@ -109,15 +109,29 @@ body {
     margin: auto;
   }
 }
-.resto__div .resto__img--cards {
+.resto__div .resto__img--card {
   overflow: hidden;
 }
+@media screen and (min-width: 768px) {
+  .resto__div .resto__img--card {
+    overflow: hidden;
+    object-fit: cover;
+    height: 450px;
+  }
+}
 .resto__div .resto__cards img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
   overflow: hidden;
   border-radius: 15px 15px 0px 0px;
   align-self: stretch;
+}
+@media screen and (min-width: 768px) {
+  .resto__div .resto__cards img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 .resto__div .resto__title--cards {
   padding-left: 1.5%;

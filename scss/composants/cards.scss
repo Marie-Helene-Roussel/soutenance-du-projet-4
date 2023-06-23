@@ -19,6 +19,14 @@
         width: 95%;
         background-color: $button-text;
         margin-left: 2%;
+
+        @media screen and (min-width: 768px) {
+
+            width: 80%;
+
+        }
+
+
  
 
 

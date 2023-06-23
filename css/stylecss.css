@@ -101,6 +101,11 @@ body {
   background-color: #FFFFFF;
   margin-left: 2%;
 }
+@media screen and (min-width: 768px) {
+  .resto__div .resto__cards {
+    width: 80%;
+  }
+}
 .resto__div .resto__img--cards {
   width: 100%;
 }

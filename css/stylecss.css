@@ -91,6 +91,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+    gap: 1%;
   }
 }
 .resto__div .resto__cards {
@@ -104,6 +105,7 @@ body {
 @media screen and (min-width: 768px) {
   .resto__div .resto__cards {
     width: 80%;
+    left: 1%;
   }
 }
 .resto__div .resto__img--cards {
@@ -114,6 +116,7 @@ body {
   object-fit: cover;
   overflow: hidden;
   border-radius: 15px 15px 0px 0px;
+  align-self: stretch;
 }
 .resto__div .resto__title--cards {
   padding-left: 1.5%;

@@ -8,6 +8,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
+        gap: 1%;
         
 
     }
@@ -23,6 +24,8 @@
         @media screen and (min-width: 768px) {
 
             width: 80%;
+            left: 1%;
+            
 
         }
 
@@ -42,6 +45,7 @@
         object-fit: cover;
         overflow: hidden;
         border-radius: 15px 15px 0px 0px;
+        align-self: stretch;
     }
 
     .resto__title--cards {

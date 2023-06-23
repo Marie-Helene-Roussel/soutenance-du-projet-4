@@ -183,7 +183,7 @@ footer .footer__logo {
   footer .footer__logo {
     width: 13%;
     position: relative;
-    left: 75%;
+    left: 100%;
     font-size: 1.5em;
     padding: 0;
     display: flex;
@@ -196,7 +196,7 @@ footer .footer__logo {
     gap: 4%;
     width: 58%;
     position: relative;
-    left: 14%;
+    left: 5%;
   }
 }
 footer .footer__link {

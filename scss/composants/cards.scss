@@ -9,8 +9,6 @@
         grid-template-columns: repeat(2, 1fr);
         justify-items: space-between;
         gap: 5%
-        
-
     }
 
     .resto__cards {
@@ -25,25 +23,25 @@
 
             width: 80%;
             margin: auto;
-            
+
 
         }
 
 
- 
+
 
 
     }
 
     .resto__img--card {
-        
+
         overflow: hidden;
 
         @media screen and (min-width: 768px) {
-              
-        overflow: hidden;
-        object-fit: cover;
-        height: 450px;
+
+            overflow: hidden;
+            object-fit: cover;
+            height: 450px;
 
 
         }
@@ -51,7 +49,7 @@
     }
 
     .resto__cards img {
-      
+
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -61,8 +59,8 @@
 
         @media screen and (min-width: 768px) {
 
-        height: 100%;
-        object-fit: cover;
+            height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -85,7 +83,8 @@
         display: flex;
 
     }
-    .link__cards{
+
+    .link__cards {
         text-decoration: none;
         color: $texts_color;
     }

@@ -335,7 +335,7 @@ nav .nav__text {
 }
 @media screen and (min-width: 768px) {
   .menu__section .layout__menu {
-    width: 70%;
+    width: 75%;
     margin: auto;
   }
 }

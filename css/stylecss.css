@@ -342,6 +342,8 @@ nav .nav__text {
   .menu__section .layout__menu {
     width: 75%;
     margin: auto;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
   }
 }
 .menu__section .fa-regular,

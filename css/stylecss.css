@@ -197,6 +197,7 @@ footer .footer__logo {
     width: 58%;
     position: relative;
     left: 5%;
+    align-items: center;
   }
 }
 footer .footer__link {

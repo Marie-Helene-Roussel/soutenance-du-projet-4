@@ -166,7 +166,8 @@ footer {
 }
 footer .footer__layout {
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 3%;
+  margin-top: -7%;
 }
 @media screen and (min-width: 768px) {
   footer .footer__layout {
@@ -178,6 +179,7 @@ footer .footer__logo {
   color: #FFFFFF;
   font-family: "Shrikhand", cursive;
   padding-left: 5%;
+  padding-top: 4%;
 }
 @media screen and (min-width: 768px) {
   footer .footer__logo {
@@ -185,7 +187,7 @@ footer .footer__logo {
     position: relative;
     left: 100%;
     font-size: 1.5em;
-    padding: 0;
+    padding: 5%;
     display: flex;
   }
 }
@@ -193,10 +195,9 @@ footer .footer__logo {
   footer .div__footer {
     display: flex;
     flex-direction: row;
-    gap: 4%;
-    width: 58%;
+    width: 60%;
     position: relative;
-    left: 5%;
+    left: 10%;
     align-items: center;
   }
 }
@@ -249,7 +250,6 @@ header .logo__autolayout .logo {
   position: initial;
   max-width: 70%;
   margin: auto;
-  /*header pour les pages des menus*/
 }
 @media screen and (min-width: 768px) {
   header .logo__autolayout .logo {
@@ -257,17 +257,19 @@ header .logo__autolayout .logo {
     width: 31%;
   }
 }
-header .logo__autolayout .logo .logo-page {
+
+/*header pour les pages des menus*/
+.logo-page {
   max-width: 50%;
   position: relative;
   margin: auto;
 }
 @media screen and (min-width: 768px) {
-  header .logo__autolayout .logo .logo-page {
+  .logo-page {
     padding-left: 10%;
   }
 }
-header .logo__autolayout .logo .logo-page .fa-arrow-left {
+.logo-page .fa-arrow-left {
   position: relative;
   padding-left: 1%;
   left: 2%;
@@ -276,7 +278,7 @@ header .logo__autolayout .logo .logo-page .fa-arrow-left {
   top: 3%;
 }
 @media screen and (min-width: 768px) {
-  header .logo__autolayout .logo .logo-page .fa-arrow-left {
+  .logo-page .fa-arrow-left {
     position: relative;
     left: 1%;
     padding-right: 10%;
@@ -328,11 +330,12 @@ nav .nav__text {
   object-fit: cover;
 }
 .menu__section .layout__menu {
-  height: 1330px;
+  height: 1350px;
   position: relative;
   background-color: #F7F7F7;
   border-radius: 20px 20px 0px 0px;
-  bottom: 45px;
+  bottom: 50px;
+  margin-bottom: -1%;
 }
 @media screen and (min-width: 768px) {
   .menu__section .layout__menu {

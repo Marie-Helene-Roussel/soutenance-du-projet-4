@@ -14,11 +14,12 @@
 
 
     .layout__menu {
-        height: 1330px;
+        height: 1350px;
         position: relative;
         background-color: $background_present ;
         border-radius: 20px 20px 0px 0px;
-        bottom: 45px;
+        bottom: 50px;
+        margin-bottom: -1%;
 
         @media screen and (min-width: 768px) {
             width: 75%;

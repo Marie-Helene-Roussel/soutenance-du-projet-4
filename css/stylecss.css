@@ -91,7 +91,7 @@ body {
   .resto__div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: space-between;
+    justify-content: space-between;
     gap: 5%;
   }
 }

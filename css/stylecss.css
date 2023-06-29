@@ -143,6 +143,7 @@ body {
   padding-top: 2%;
   position: relative;
   left: 5%;
+  /*animation du remplissage du coeur*/
 }
 .resto__div .resto__card--div {
   display: flex;

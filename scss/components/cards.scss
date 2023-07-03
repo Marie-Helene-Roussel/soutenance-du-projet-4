@@ -76,9 +76,15 @@
         padding-top: 2%;
         position: relative;
         left: 5%;
+        transition: transform;
 
         /*animation du remplissage du coeur*/
-        
+        &:hover{
+            transform-origin: 0% 0%;
+            background: $primary_color;
+            transition: transform 5s cubic-bezier(.32,0,.07,1);
+
+        }
     }
 
     .resto__card--div {

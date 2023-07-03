@@ -145,7 +145,7 @@ body {
   position: relative;
   left: 5%;
 }
-.resto__div .my-heart-full {
+.resto__div .my-heart-full:hover {
   display: none;
   opacity: 1;
   background-position: 0% 100%;

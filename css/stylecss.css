@@ -146,7 +146,6 @@ body {
   left: 5%;
 }
 .resto__div .my-heart-full:hover {
-  display: none;
   opacity: 1;
   background-position: 0% 100%;
   background-image: linear-gradient(#ff79dA, #9356dc);

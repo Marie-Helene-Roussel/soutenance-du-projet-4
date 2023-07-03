@@ -86,7 +86,6 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding-top: 3%;
-  /*animation du remplissage du coeur*/
 }
 @media screen and (min-width: 768px) {
   .resto__div {
@@ -151,8 +150,9 @@ body {
 }
 .resto__div .my-heart-full {
   display: none;
+  /*animation du remplissage du coeur*/
 }
-.resto__div .my-heart-full:hover {
+.resto__div .my-heart-full .my-heart-full:hover {
   opacity: 1;
   background-position: 0% 100%;
   background-image: linear-gradient(#ff79dA, #9356dc);

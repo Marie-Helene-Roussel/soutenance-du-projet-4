@@ -76,12 +76,13 @@
         padding-top: 2%;
         position: relative;
         left: 5%;
-        transition: transform 5s ease-in-out;
+        
 
     }
 
     .my-heart-full {
         display: none;
+        transition: transform 5s ease-in-out;
 
 
         /*animation du remplissage du coeur*/

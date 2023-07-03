@@ -143,10 +143,10 @@ body {
   padding-top: 2%;
   position: relative;
   left: 5%;
-  transition: transform 5s ease-in-out;
 }
 .resto__div .my-heart-full {
   display: none;
+  transition: transform 5s ease-in-out;
   /*animation du remplissage du coeur*/
 }
 .resto__div .my-heart-full .my-heart-full:hover {

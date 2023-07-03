@@ -77,29 +77,33 @@
         position: relative;
         left: 5%;
         transition: transform 5s ease-in-out;
-        transform-origin: bottom;
         
+        &:hover{
+            display: none;
+        }
+    
+    }
+
+    .my-heart-full{
+        display: none;
+    }
 
         /*animation du remplissage du coeur*/
-        &:hover{
-            
-            background: $primary_color;
-            transform:  5s;
-
+        .my-heart-full:hover {
+            opacity: 1;
+            background-position: 0% 100%;
+            background-image: linear-gradient(#ff79dA, #9356dc);
+            transition: opacity 3s ease-in-out;
         }
-    }
-
-    .resto__card--div {
-        display: flex;
-
-    }
-
-    .link__cards {
-        text-decoration: none;
-        color: $texts_color;
-    }
+}
 
 
+.resto__card--div {
+    display: flex;
 
+}
 
+.link__cards {
+    text-decoration: none;
+    color: $texts_color;
 }

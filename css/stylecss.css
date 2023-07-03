@@ -86,7 +86,6 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding-top: 3%;
-  /*animation du remplissage du coeur*/
 }
 @media screen and (min-width: 768px) {
   .resto__div {
@@ -139,14 +138,18 @@ body {
   width: 80%;
   margin-top: 0;
 }
-.resto__div .fa-heart, .resto__div .my-heart-full {
+.resto__div .fa-heart {
   font-size: 2em;
   padding-top: 2%;
   position: relative;
   left: 5%;
   transition: transform 5s ease-in-out;
 }
-.resto__div .my-heart-full:hover {
+.resto__div .my-heart-full {
+  display: none;
+  /*animation du remplissage du coeur*/
+}
+.resto__div .my-heart-full .my-heart-full:hover {
   opacity: 1;
   background-position: 0% 100%;
   background-image: linear-gradient(#ff79dA, #9356dc);

@@ -70,7 +70,7 @@
         margin-top: 0;
     }
 
-    .fa-heart {
+    .fa-heart , .my-heart-full  {
 
         font-size: 2em;
         padding-top: 2%;
@@ -80,10 +80,8 @@
 
     }
 
-    .my-heart-full {
-        display: none;
-
-
+    
+      
         /*animation du remplissage du coeur*/
         .my-heart-full:hover {
             opacity: 1;
@@ -91,7 +89,7 @@
             background-image: linear-gradient(#ff79dA, #9356dc);
             transition: opacity 3s ease-in-out;
         }
-    }
+    
 }
 
 

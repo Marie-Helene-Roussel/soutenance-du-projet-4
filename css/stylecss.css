@@ -139,7 +139,7 @@ body {
   width: 80%;
   margin-top: 0;
 }
-.resto__div i {
+.resto__div .heart__layout i {
   position: absolute;
   cursor: pointer;
 }
@@ -151,7 +151,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
-.resto__div .my-heart-full .my-heart-full:hover {
+.resto__div .my-heart-full:hover {
   opacity: 1;
   background-position: 0% 100%;
   background-image: linear-gradient(#ff79dA, #9356dc);

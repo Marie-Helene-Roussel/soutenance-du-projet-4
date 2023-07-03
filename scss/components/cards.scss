@@ -81,18 +81,18 @@
     }
 
 
-    .my-heart-full{
+    .my-heart-full {
         transition: opacity 3s ease-in-out;
 
         .my-heart-full:hover {
-        opacity: 1;
-        background-position: 0% 100%;
-        background-image: linear-gradient(#ff79dA, #9356dc);
-        
-    }
+            opacity: 1;
+            background-position: 0% 100%;
+            background-image: linear-gradient(#ff79dA, #9356dc);
+
+        }
     }
 
-    
+
 
     /*animation du remplissage du coeur*/
 

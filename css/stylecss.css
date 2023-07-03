@@ -145,9 +145,6 @@ body {
   left: 5%;
   transition: transform 5s ease-in-out;
 }
-.resto__div .fa-heart:hover {
-  display: none;
-}
 .resto__div .my-heart-full {
   display: none;
   /*animation du remplissage du coeur*/

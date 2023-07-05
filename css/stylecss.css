@@ -142,6 +142,9 @@ body {
 .resto__div .heart__layout i {
   position: absolute;
   cursor: pointer;
+  padding-top: 4px;
+  padding-left: 25px;
+  font-size: 1.8em;
 }
 .resto__div .my-heart-full {
   opacity: 0;

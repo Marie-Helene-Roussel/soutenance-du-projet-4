@@ -562,4 +562,28 @@ les restaurant principalement pour la mise en forme des textes*/
   }
 }
 
+.fa-cookie-bite {
+  color: #D2691E;
+  position: fixed;
+  font-size: 50px;
+  animation: fa-cookie-bite 4s;
+}
+
+@keyframes fa-cookie-bite {
+  0% {
+    opacity: 0.1;
+    rotate: 0deg;
+  }
+  17% {
+    rotate: 10deg;
+  }
+  24% {
+    rotate: 30deg;
+  }
+  100% {
+    opacity: 1;
+    rotate: 360deg;
+  }
+}
+
 /*# sourceMappingURL=stylecss.css.map */

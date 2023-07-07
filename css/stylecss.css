@@ -423,7 +423,16 @@ nav .nav__text {
     translate: 10%;
   }
 }
-.menu__section .fa-circle-check {
+
+.circle__layout {
+  opacity: 0;
+}
+.circle__layout:active {
+  translate: 10%;
+  opacity: 1;
+  background: #99E2D0;
+}
+.circle__layout .fa-circle-check {
   position: absolute;
   cursor: pointer;
   top: 197px;
@@ -431,13 +440,13 @@ nav .nav__text {
   opacity: 0;
   transition: opacity 3s ease-in-out;
 }
-.menu__section .fa-circle-check:active {
+.circle__layout .fa-circle-check:active {
   opacity: 1;
   background-position: 0% 100%;
   transition: opacity 3s ease-in-out;
   color: #99E2D0;
 }
-.menu__section .title__dishes {
+.circle__layout .title__dishes {
   text-align: left;
   font-weight: 700;
   font-size: 15px;
@@ -445,13 +454,13 @@ nav .nav__text {
   position: relative;
   top: 35%;
 }
-.menu__section .text__dishes {
+.circle__layout .text__dishes {
   text-align: left;
   position: relative;
   top: 55%;
   width: 80%;
 }
-.menu__section .price__dishes {
+.circle__layout .price__dishes {
   font-weight: 700;
   position: relative;
   left: 90%;

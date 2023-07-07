@@ -412,6 +412,24 @@ nav .nav__text {
   /* White */
   background: #FFFFFF;
   border-radius: 15.0431px;
+  transition: 1s;
+}
+.menu__section .select__button:active {
+  translate: 10%;
+}
+.menu__section .fa-circle-check {
+  position: absolute;
+  cursor: pointer;
+  top: 197px;
+  font-size: 1.8em;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+.menu__section .fa-circle-check:active {
+  opacity: 1;
+  background-position: 0% 100%;
+  transition: opacity 3s ease-in-out;
+  color: #99E2D0;
 }
 .menu__section .title__dishes {
   text-align: left;

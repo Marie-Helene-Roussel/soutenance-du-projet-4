@@ -82,6 +82,7 @@
         padding-left: 2%;
         margin-left: 2%;
         margin-top: 2%;
+        cursor: pointer;
         isolation: isolate;
         @include shadow-select;
         width: 95%;
@@ -99,6 +100,12 @@
             translate: 10%;
 
         }
+        @media screen and (min-width: 768px) {
+            &:hover{
+                translate: 10%;
+            }
+        }
+        
     }
 
     .fa-circle-check {

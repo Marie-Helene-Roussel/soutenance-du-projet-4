@@ -1,9 +1,10 @@
 .fa-cookie-bite{
-    color: $cookie;
+    color: $cookie  ;
     position: fixed;
-    left: 45%;
+    left: 25%;
+    top: 50%;
     margin: auto;
-    font-size: 50px;
+    font-size: 20em;
     animation: fa-cookie-bite 4s;
     opacity: 0;
 }
@@ -22,10 +23,14 @@
         rotate: (30deg);
     }
     
-    
+    84%,100%{
+        color: $pepite;
+
+    }
     100%{
         opacity: 0;
         rotate: (360deg);
+        
     }
 
 

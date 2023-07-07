@@ -1,11 +1,14 @@
 .fa-cookie-bite{
-    color: $cookie  ;
+    color: $cookie;
     position: fixed;
     left: 25%;
     top: 50%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20em;
-    animation: fa-cookie-bite 4s;
+    animation: fa-cookie-bite 3s;
     opacity: 0;
 }
 
@@ -16,6 +19,7 @@
     }
     17%{
         rotate: (10deg) ;
+        opacity: 0.1;
 
     }
     24%{

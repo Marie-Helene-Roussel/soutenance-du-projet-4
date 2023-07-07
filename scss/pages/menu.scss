@@ -97,18 +97,45 @@
         transition: 1s;
 
         &:active{
-            translate: 10%;
+            translate: -5em;
 
         }
         @media screen and (min-width: 768px) {
             &:hover{
-                translate: 10%;
+                translate: -5em;
             }
         }
         
 
 
         }
+    }
+
+   
+
+    .title__dishes {
+        text-align: left;
+        font-weight: 700;
+        font-size: 15px;
+        width: 80%;
+        position: relative;
+        top: 35%;
+    }
+
+    .text__dishes {
+        text-align: left;
+        position: relative;
+        top: 55%;
+        width: 80%;
+
+    }
+
+    .price__dishes {
+        font-weight: 700;
+        position: relative;
+        left: 90%;
+        bottom: 30%;
+        width: 10%;
     }
 
     .circle__layout{
@@ -135,31 +162,6 @@
             transition: opacity 3s ease-in-out;
             color: $turquoise_color ;
         }
-    }
-
-    .title__dishes {
-        text-align: left;
-        font-weight: 700;
-        font-size: 15px;
-        width: 80%;
-        position: relative;
-        top: 35%;
-    }
-
-    .text__dishes {
-        text-align: left;
-        position: relative;
-        top: 55%;
-        width: 80%;
-
-    }
-
-    .price__dishes {
-        font-weight: 700;
-        position: relative;
-        left: 90%;
-        bottom: 30%;
-        width: 10%;
     }
 
 }

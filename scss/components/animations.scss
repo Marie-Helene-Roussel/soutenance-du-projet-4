@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     padding-left: 50%;
+
     .fa-cookie-bite {
         color: $cookie;
         position: fixed;
@@ -20,7 +21,7 @@
         opacity: 0;
 
         @media screen and (min-width: 768px) {
-            left:40%;
+            left: 40%;
 
 
 
@@ -35,8 +36,9 @@
     }
 
     17% {
-        rotate: (10deg);
         opacity: 0.1;
+        rotate: (10deg);
+
 
     }
 

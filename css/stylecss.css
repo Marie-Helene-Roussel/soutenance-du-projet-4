@@ -614,8 +614,8 @@ les restaurant principalement pour la mise en forme des textes*/
     rotate: 0deg;
   }
   17% {
-    rotate: 10deg;
     opacity: 0.1;
+    rotate: 10deg;
   }
   24% {
     opacity: 1;

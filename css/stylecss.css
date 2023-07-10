@@ -452,7 +452,7 @@ nav .nav__text {
   opacity: 0;
 }
 .circle__layout:active {
-  translate: 10%;
+  translate: 2px;
   opacity: 1;
   background: #99E2D0;
 }
@@ -471,7 +471,7 @@ nav .nav__text {
   color: white;
   position: absolute;
   top: -77.5px;
-  left: 595px;
+  left: 620px;
   background-color: #99E2D0;
   padding-top: 29px;
   height: 51.5px;

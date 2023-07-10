@@ -480,6 +480,7 @@ nav .nav__text {
   border-bottom-right-radius: 15px;
   display: flex;
   justify-content: center;
+  translate: -80px;
 }
 
 /* section correspondant aux boutons sur le fonctionnement du site*/

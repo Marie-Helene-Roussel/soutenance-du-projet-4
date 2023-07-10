@@ -128,13 +128,13 @@
     transition: 1s;
 
     &:active {
-        translate: -5em;
+        translate: -40px;
 
     }
 
     @media screen and (min-width: 768px) {
         &:hover {
-            translate: -5em;
+            translate: -40px;
         }
     }
 }

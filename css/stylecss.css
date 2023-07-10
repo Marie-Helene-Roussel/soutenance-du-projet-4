@@ -440,11 +440,11 @@ nav .nav__text {
   transition: 1s;
 }
 .price__dishes:active {
-  translate: -5em;
+  translate: -40px;
 }
 @media screen and (min-width: 768px) {
   .price__dishes:hover {
-    translate: -5em;
+    translate: -40px;
   }
 }
 

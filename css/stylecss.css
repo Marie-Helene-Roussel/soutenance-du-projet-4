@@ -587,6 +587,7 @@ les restaurant principalement pour la mise en forme des textes*/
   align-items: center;
   width: 100%;
   padding-left: 50%;
+  z-index: 100;
 }
 .load .fa-cookie-bite {
   color: #D2691E;
@@ -599,7 +600,7 @@ les restaurant principalement pour la mise en forme des textes*/
   align-items: center;
   text-align: center;
   font-size: 20em;
-  animation: fa-cookie-bite 3s;
+  animation: fa-cookie-bite 5s;
   opacity: 0;
 }
 @media screen and (min-width: 768px) {

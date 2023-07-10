@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     padding-left: 50%;
+    z-index: 100;
 
     .fa-cookie-bite {
         color: $cookie;
@@ -17,8 +18,9 @@
         align-items: center;
         text-align: center;
         font-size: 20em;
-        animation: fa-cookie-bite 3s;
+        animation: fa-cookie-bite 5s;
         opacity: 0;
+       
 
         @media screen and (min-width: 768px) {
             left: 40%;

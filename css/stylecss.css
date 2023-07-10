@@ -440,20 +440,19 @@ nav .nav__text {
   transition: 1s;
 }
 .price__dishes:active {
-  translate: -20px;
+  translate: -5em;
 }
 @media screen and (min-width: 768px) {
   .price__dishes:hover {
-    translate: -20px;
+    translate: -5em;
   }
 }
 
 .circle__layout {
-  opacity: 1;
-  background-color: #99E2D0;
+  opacity: 0;
 }
 .circle__layout:active {
-  translate: 100px;
+  translate: 10%;
   opacity: 1;
   background: #99E2D0;
 }
@@ -469,7 +468,18 @@ nav .nav__text {
   opacity: 1;
   background-position: 0% 100%;
   transition: opacity 3s ease-in-out;
-  color: #99E2D0;
+  color: white;
+  position: absolute;
+  top: -77.5px;
+  left: 595px;
+  background-color: #99E2D0;
+  padding-top: 29px;
+  height: 51.5px;
+  width: 77px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 /* section correspondant aux boutons sur le fonctionnement du site*/

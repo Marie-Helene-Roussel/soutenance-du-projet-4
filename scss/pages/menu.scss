@@ -33,7 +33,7 @@
 
 
     }
-
+/* coeur en haut de page*/
     .fa-regular,
     .far {
         font-weight: 400;
@@ -43,7 +43,7 @@
         font-size: 1.7em;
     }
 
-
+/*nom des restaurants en haut de la page*/
     .resto__name {
         position: relative;
         left: 3%;
@@ -55,13 +55,13 @@
         line-height: 41px;
     }
 
-
+/* titre pour les entrées plats et desserts*/
     .select__title {
         padding-left: 1%;
 
 
     }
-
+/*la bordur autour des menus*/
     .border {
         width: 5%;
         background-color: #99E2D0;
@@ -75,7 +75,7 @@
     .selct__ul {
         list-style-type: none;
     }
-
+/* boutons de selections des menu*/
     .select__button {
         display: grid;
         align-items: center;
@@ -95,7 +95,7 @@
 
         background: $button-text;
         border-radius: 15.0431px;
-
+/* les prix*/
         .price__dishes {
             font-weight: 700;
             position: relative;
@@ -103,7 +103,7 @@
             bottom: 30%;
             width: 10%;
         }
-
+/*titre de chaque plat*/
         .title__dishes {
             text-align: left;
             font-weight: 700;
@@ -112,7 +112,7 @@
             position: relative;
             top: 35%;
         }
-
+/*texte descriptifs*/
         .text__dishes {
             text-align: left;
             position: relative;
@@ -121,7 +121,7 @@
 
         }
 
-
+/* mise en forme de la patie verte quand on choisit son plat*/
         .circle__layout {
             opacity: 0;
             background-color: #99E2D0;
@@ -138,7 +138,7 @@
 
 
         }
-
+/*cercle de validation*/
         &:active .circle__layout {
             transform: translateX(-19px);
             opacity: 1;

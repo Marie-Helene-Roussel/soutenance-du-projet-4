@@ -632,5 +632,24 @@ les restaurant principalement pour la mise en forme des textes*/
     rotate: 360deg;
   }
 }
+.layout__menu {
+  opacity: 1;
+  animation: layout__menu 3s;
+}
+
+@keyframes layout__menu {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  84% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=stylecss.css.map */

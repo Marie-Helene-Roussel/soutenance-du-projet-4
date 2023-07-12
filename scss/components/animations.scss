@@ -36,30 +36,38 @@
 @keyframes fa-cookie-bite {
     0% {
         opacity: 0;
-        rotate: (0deg);
+        transform: rotate(0deg);
     }
 
     17% {
         opacity: 0.1;
-        rotate: (10deg);
+        transform: rotate(10deg);
 
 
     }
 
     24% {
         opacity: 1;
-        rotate: (30deg);
+        transform: rotate(30deg);
+    }
+
+    50%{
+        opacity: 1;
+        color: $pepite;
+        transform: rotate(90deg);
+        transform: scale(1.8);
     }
 
     84%,
     100% {
-        color: $pepite;
+        opacity: 0.5;
+        transform: rotate(180deg);
 
     }
 
     100% {
         opacity: 0;
-        rotate: (360deg);
+        transform: rotate(360deg);
 
     }
 

@@ -5,10 +5,11 @@
     margin: auto;
     @include shadow-button;
     border-radius: 25px;
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background: linear-gradient(193.33deg, #FF79DA -11.44%, #9356DC 123.93%);
     display: flex;
     align-items: center;
-    border-color: $primary_color;
+    border: none;
+    padding: 15px;
 }
 
 .fonctionnement__div {

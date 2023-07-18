@@ -77,8 +77,10 @@
     }
 /* boutons de selections des menu*/
     .select__button {
+        position: relative;
         display: grid;
         align-items: center;
+        align-content: center;
         padding-top: 0%;
         padding-left: 2%;
         margin-left: 2%;
@@ -98,7 +100,7 @@
 /* les prix*/
         .price__dishes {
             font-weight: 700;
-            position: relative;
+            position: absolute;
             left: 90%;
             bottom: 30%;
             width: 10%;
@@ -110,13 +112,13 @@
             font-size: 15px;
             width: 80%;
             position: relative;
-            top: 35%;
+            /*top: 35%;*/
         }
 /*texte descriptifs*/
         .text__dishes {
             text-align: left;
             position: relative;
-            top: 55%;
+            /*top: 55%;*/
             width: 80%;
 
         }
@@ -126,9 +128,10 @@
             opacity: 0;
             background-color: #99E2D0;
             width: 15%;
-            height: 80px;
-            right: -3%;
-            display: flex;
+            height: 100%;
+           
+            right: -15%;
+           
             position: absolute;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
@@ -144,13 +147,21 @@
         }
 /*cercle de validation*/
         &:active .circle__layout {
-            transform: translateX(-18.5px);
+            transform: translateX(-100%);
             opacity: 1;
+        }
+
+        &:active  .text__dishes, &:active  .title__dishes {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 60%;
         }
 
         @media screen and (min-width: 768px) {
             &:hover .circle__layout {
-                transform: translateX(-24.5px);
+                transform: translateX(-100%);
                 opacity: 1;
             }
         }
@@ -174,3 +185,4 @@
 
     }
 }
+

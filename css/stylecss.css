@@ -104,6 +104,25 @@ body {
   background-color: #FFFFFF;
   margin-left: 2%;
 }
+.resto__div .resto__cards .link__cards {
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+}
+.resto__div .resto__cards .link__cards .resto__card--new {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  background-color: #99E2D0;
+  color: #008766;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.resto__div .resto__cards .link__cards:hover .my-heart-full, .resto__div .resto__cards .link__cards:active .my-heart-full {
+  opacity: 1;
+}
 @media screen and (min-width: 768px) {
   .resto__div .resto__cards {
     width: 80%;
@@ -135,20 +154,30 @@ body {
   }
 }
 .resto__div .resto__title--cards {
-  padding-left: 1.5%;
+  margin: 3px 0;
   width: 80%;
-  margin-top: 0;
+}
+.resto__div .resto__text--cards {
+  padding-left: 12px;
+  padding-bottom: 2px;
+  font-size: 1.2em;
+}
+.resto__div .heart__layout {
+  position: absolute;
+  right: 15px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .resto__div .heart__layout i {
   position: absolute;
   cursor: pointer;
-  padding-top: 4px;
-  padding-left: 25px;
   font-size: 1.8em;
 }
 .resto__div .my-heart-full {
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 2s ease-in-out;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(#ff79dA, #9356dc);
   -webkit-background-clip: text;
@@ -158,16 +187,15 @@ body {
   opacity: 1;
   background-position: 0% 100%;
   background-image: linear-gradient(#ff79dA, #9356dc);
-  transition: opacity 3s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }
 
 .resto__card--div {
   display: flex;
-}
-
-.link__cards {
-  text-decoration: none;
-  color: #000000;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
 }
 
 /* Partie consacré au pied de page du site et de sa mise en forme de 

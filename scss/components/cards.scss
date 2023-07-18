@@ -18,7 +18,29 @@
         width: 95%;
         background-color: $button-text;
         margin-left: 2%;
+        
+        .link__cards {
+            position: relative;
+            text-decoration: none;
+            color: $texts_color;
+            
+            .resto__card--new {
+                position: absolute;
+                top: 3%;
+                right: 3%;
+                background-color: $turquoise_color;
+                color: $green_color;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px 15px;
+                border-radius: 5px;
+            }
+            &:hover .my-heart-full, &:active .my-heart-full {
+                opacity: 1;
+            }
+        }
 
+        
         @media screen and (min-width: 768px) {
 
             width: 80%;
@@ -65,22 +87,33 @@
     }
 
     .resto__title--cards {
-        padding-left: 1.5%;
+        
+        margin: 3px 0;
         width: 80%;
-        margin-top: 0;
     }
-
-    .heart__layout i {
+    .resto__text--cards{
+        padding-left: 12px;
+        padding-bottom: 2px;
+        font-size: 1.2em;
+    }
+    .heart__layout {
         position: absolute;
-        cursor: pointer;
-        padding-top: 4px;
-        padding-left: 25px;
-        font-size: 1.8em;
+        right: 15px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        i {
+            position: absolute;
+            cursor: pointer;
+            font-size: 1.8em;
+        }
     }
  /*animation du remplissage du coeur*/
     .my-heart-full {
         opacity: 0;
-        transition: opacity 3s ease-in-out;
+        transition: opacity 2s ease-in-out;
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(#ff79dA, #9356dc);
         -webkit-background-clip: text;
@@ -91,7 +124,7 @@
             opacity: 1;
             background-position: 0% 100%;
             background-image: linear-gradient(#ff79dA, #9356dc);
-            transition: opacity 3s ease-in-out;
+            transition: opacity 2s ease-in-out;
         }
 
     }
@@ -106,10 +139,8 @@
 
 .resto__card--div {
     display: flex;
-
-}
-
-.link__cards {
-    text-decoration: none;
-    color: $texts_color;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
 }
